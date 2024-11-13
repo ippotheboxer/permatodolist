@@ -27,7 +27,7 @@ const EditTodo = ({todo}) => {
     } 
 
     return (<>
-    <Button variant="primary" onClick={handleShow}>
+    <Button className="btn edit-button" onClick={handleShow}>
         <TbPencil />
       </Button>
 

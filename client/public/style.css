@@ -37,11 +37,11 @@
 }
 
 .nav li.active {
-    background-color: #E4B1F0;
+    color: #B7A9FF;
 }
 
 .nav li:hover {
-    background-color: #FFE1FF;
+    background-color: #ABA5CD;
 }
 
 .container {
@@ -71,12 +71,41 @@ form button {
 }
 
 table {
-    width: 300px;
+    width: 600px;
     margin-bottom: 20px;
 }
+
+table th, td {
+    padding: 15px;
+  }
 
 .time-greeting {
     font-size: 3rem;
     color: transparent;
     background-clip: text;
+}
+
+.centered-column {
+    text-align: center;
+    width: 80px;
+}
+
+.tick-button {
+    color: #9EDF9C;
+}
+
+.tick-button:hover {
+    background-color: #C0EBA6;
+    color: #347928;
+}
+
+.edit-button {
+    color: #FAB12F;
+    background-color: white;
+    border: none;
+}
+
+.edit-button:hover {
+    background-color: #FFF9BF;
+    color: #F0C1E1;
 }

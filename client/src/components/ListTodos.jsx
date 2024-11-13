@@ -45,8 +45,8 @@ const ListTodos = () => {
         {todos.map(todo => (
             <tr key={todo.todo_id}>
             <td>{todo.task}</td>
-            <td><EditTodo todo={todo}/></td>
-            <td><button className="btn" onClick={() => deleteTodo(todo.todo_id)}>
+            <td className="centered-column"><EditTodo todo={todo} /></td>
+            <td className="centered-column"><button className="btn tick-button" onClick={() => deleteTodo(todo.todo_id)}>
             <SiTicktick />
                 </button></td>
           </tr>
