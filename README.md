@@ -1,8 +1,8 @@
-#**Install dependencies:**
+# **Install dependencies:**
 
 npm install
 
-#**Add environment variables:**
+# **Add environment variables:**
 
 PG_USER
 
@@ -16,9 +16,9 @@ PG_PORT
 
 Make sure .env is in the server folder.
 
-#**Run the queries in database.sql to create the database and tables.**
+# **Run the queries in database.sql to create the database and tables.**
 
-#**To run, open 2 terminals:**
+# **To run, open 2 terminals:**
 
 1) CD to client. Use npm start to run, this will run on localhost:3000
 2) CD to server. Use Nodemon index.js to run, this will run on localhost:5000
