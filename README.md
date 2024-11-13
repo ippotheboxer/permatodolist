@@ -2,6 +2,8 @@
 
 npm install
 
+You will need to run this in both the client and server folders.
+
 # **Add environment variables:**
 
 PG_USER
